@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * BracketsController
  */
 @RestController
+@RequestMapping("/api")
 public class BracketsController {
 
     @Autowired
